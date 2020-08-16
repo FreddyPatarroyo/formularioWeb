@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background: #52050A;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+main{
+  background: #F3E9D2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  background: #52050A;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+form div{
+  padding: 20px;
+}
+form div input{
+  float: right;
+  margin-left: 10px;
+}
+form div input[type='text'],
+form div input[type='email'],
+form div input[type='date'],
+form div input[type='datetime'],
+form div input[type='number']{
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+form  button{
+  background: #1A936F;
+  padding: 20px 0px;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+  font-family: arial;
+}
+
+form  button:hover{
+  background: #88D498;
+  padding: 25px;
+}

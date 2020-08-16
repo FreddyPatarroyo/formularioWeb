@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>FORMULARIO</h1>
+    </header>
+    <main>
+      <form class="formulario" action="index.html" method="post">
+        <div class="nombre">
+          <label for="color">Nombre: </label>
+          <input type="text" placeholder="nombre" maxlength="10" required autofocus>
+        </div>
+        <div class="correo">
+          <label for="color">Correo: </label>
+          <input type="email" placeholder="correo electronico" required>
+        </div>
+        <div class="fechaNacimiento">
+          <label for="color">Fecha De Nacimiento: </label>
+          <input type="date">
+        </div>
+        <div class="fechaYHora">
+          <label for="color">Fecha y Hora: </label>
+          <input type="datetime" placeholder="fecha y hora actual">
+        </div>
+        <div class="documento">
+          <label for="color">Documento: </label>
+          <input type="number" placeholder="numero de documento" max="999999999" min="10000" >
+        </div>
+        <div class="edad">
+          <label for="color">Edad: </label>
+          <input type="number" placeholder="edad" max="100" min="1">
+        </div>
+        <div class="color">
+          <label for="color">Color: </label>
+          <input type="color" placeholder="color">
+        </div>
+        <button type="button" name="button">Guardar</button>
+      </form>
+    </main>
+  </body>
+</html>
