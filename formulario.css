@@ -42,14 +42,16 @@ form div input{
 }
 form div input[type='text'],
 form div input[type='email'],
+form div input[type='url'],
 form div input[type='date'],
 form div input[type='datetime-local'],
 form div input[type='number']{
   height: 30px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
 }
 
+form div input[type='url'],
 form .documento input[type='number']{
   width: 70%;
 }
